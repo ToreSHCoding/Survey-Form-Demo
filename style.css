@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: linear-gradient(rgba(27, 31, 59, 0.9), rgba(27, 31, 59, 0.9)), url(https://cloud.fullstackacademy.com/freeCodeCamp-image.png?mtime=20190606205836);
+}
+
+h1, p{
+  color: #fff;
+}
+
+form {
+  margin: 0 auto;
+  padding: 30px 20px;
+  max-width: 600px;
+  background-color: #454ADE;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0, .5);
+  border-radius: 7px;
+}
+
+/* #background {
+  box-shadow: inset 0 0 0 100rem rgba(27, 31, 59, 0.9);
+  background-image: url(https://cloud.fullstackacademy.com/freeCodeCamp-image.png?mtime=20190606205836);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#background-2 {
+  background-color: rgba(27, 31, 59, 0.9);
+  background-size: cover;
+  min-height: 100%;
+  margin: 0 auto;
+} */
+
+ input, label {
+  display: block;
+}
+
+.form input{
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 5px;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #777;
+}
+
+.form label {
+  text-align: left;
+}
+
+#name-label{
+  padding: 12px 0px 5px;
+}
+
+#email-label{
+  padding: 12px 0px 5px;
+}
+
+#number-label{
+  padding: 12px 0px 5px;
+}
+
+#dropdown-label{
+  padding: 12px 0px 5px;
+}
+
+#dropdown {
+  width: 100%;
+  align: center;
+  font-family: inherit;
+  border: 1px solid #454ADE;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.drop-option {
+  cursor: pointer;
+}
+
+#recommendation-label{
+  padding: 12px 0px 5px;
+}
+
+.label-recommendation {
+  cursor: pointer;
+}
+
+.form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+} 
+
+.form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.form input
+#improvement-label{
+  padding: 12px 0px 5px;
+}
+
+.label-improvement {
+  cursor: pointer;
+}
+
+.form textarea{
+  width: 100%;
+  font-family: inherit;
+  border: 1px solid #454ADE;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+#comments-label{
+  padding: 12px 0px 5px;
+}
+
+.form input[type="submit"]{
+  background-color: green;
+  border: 1px solid #454ADE;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  display: block;
+  max-width: 600px;
+  cursor: pointer;
+}
+https://coolors.co/454ade-1b1f3b-b14aed-c874d9-e1bbc9
